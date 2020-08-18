@@ -117,3 +117,39 @@ function and(a, b) {
 }
 
 // ---------
+// Is the Number Less than or Equal to Zero?
+// Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+function lessThanOrEqualToZero(num) {
+	if (num <= 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+// Alternatively:
+function lessThanOrEqualToZero(num) {
+	return num <= 0;
+}
+
+// ---------
+// Less Than 100?
+// Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+
+function lessThan100(a, b) {
+	return a + b < 100;
+}
+
+// ---------
+// Football Points
+// Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+/* wins get 3 points
+-- draws get 1 point
+-- losses get 0 points */
+
+function footballPoints(wins, draws, losses) {
+	return wins * 3 + draws * 1 + losses * 0;
+}
+
+// ---------
