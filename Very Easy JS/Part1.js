@@ -60,4 +60,60 @@ function getFirstValue(arr) {
 }
 
 // ----------
-//
+// Maximum Edge of a Triangle
+// Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+
+function nextEdge(side1, side2) {
+	return side1 + side2 - 1;
+}
+
+// ----------
+// Find the Perimeter of a Rectangle
+// Create a function that takes length and width and finds the perimeter of a rectangle.
+
+function findPerimeter(length, width) {
+	return length * 2 + width * 2;
+	// alternatively
+	// return (length + width) * 2
+}
+
+// ----------
+// Return the Remainder from Two Numbers
+// There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+function remainder(x, y) {
+	return x % y;
+}
+
+// ---------
+// Correct the Mistakes
+// Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+
+// before
+function squaed(b) {
+	return a * a;
+}
+
+//after
+function squared(a) {
+	return a * a;
+}
+
+// ---------
+// Using the "&&" Operator
+// Make a function using the && operator.
+
+function and(a, b) {
+	if (a && b == true) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+// Alternatively:
+function and(a, b) {
+	return a && b;
+}
+
+// ---------
