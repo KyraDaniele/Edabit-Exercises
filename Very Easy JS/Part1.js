@@ -153,3 +153,54 @@ function footballPoints(wins, draws, losses) {
 }
 
 // ---------
+// Are the Numbers Equal?
+// Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+function isSameNum(num1, num2) {
+	return num1 === num2;
+}
+
+// ---------
+// The Farm Problem
+// In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species. You have to implement a function that returns the total number of legs of all the animals.
+/* chickens = 2 legs
+-- cows = 4 legs
+-- pigs = 4 legs */
+
+function animals(chickens, cows, pigs) {
+	return chickens * 2 + cows * 4 + pigs * 4;
+}
+
+// ---------
+// Convert Hours and Minutes into Seconds
+// Write a function that takes two integers (hours, minutes), converts them to seconds, and adds them.
+
+function convert(hours, minutes) {
+	return hours * 3600 + minutes * 60;
+}
+
+// ---------
+// Equality Check
+// In this challenge, you must verify the equality of two different given parameters: a and b. The possible types of the given parameters are Numbers, Strings, Booleans, and Special values: undefined, null and NaN. Implement a function that returns true if the parameters are equal, and false if they are different.
+
+function checkEquality(a, b) {
+	return a === b;
+}
+
+// ---------
+// Profitable Gamble
+// Create a function that takes three arguments prob, prize, pay and returns true if prob * prize > pay; otherwise return false.
+
+function profitableGamble(prob, prize, pay) {
+	return prob * prize > pay;
+}
+
+// ---------
+// Frames Per Second
+// Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+function frames(minutes, fps) {
+	return minutes * 60 * fps;
+}
+
+// ---------
