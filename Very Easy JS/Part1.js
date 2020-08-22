@@ -220,5 +220,27 @@ function isEmpty(s) {
 }
 
 // ---------
-//
-//
+// Multiple of 100
+// Create a function that takes an integer and return true if it's divisible by 100, otherwise return false.
+
+function divisible(num) {
+	if (num % 100 === 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+// ---------
+// Drinks Allowed?
+// A bartender is writing a simple program to determine whether he should serve drinks to someone. He only serves drinks to people 18 and older and when he's not on break. Given the person's age, and whether break time is in session, create a function which returns whether he should serve drinks.
+
+function shouldServeDrinks(age, onBreak) {
+	if (age >= 18 && onBreak == false) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+// ---------
