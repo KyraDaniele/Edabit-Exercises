@@ -24,3 +24,16 @@ function matchHouses(step) {
 }
 
 // ----------
+// Add up the Numbers from a Single Number
+// Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function.
+
+function addUp(num) {
+	let i = 1;
+	if (num <= i) {
+		return num;
+	} else {
+		return (num * (num + 1)) / 2;
+	}
+}
+
+// ----------
