@@ -9,3 +9,18 @@ function arrayLessThan100(arr) {
 }
 
 // ----------
+// Matchstick Houses
+// Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step.
+// https://edabit.com/challenge/tYHkTdFrEmWfxpPKF
+
+function matchHouses(step) {
+	if (step === 0) {
+		return 0;
+	} else if (step >= 2) {
+		return 5 * step + 1;
+	} else {
+		return 6;
+	}
+}
+
+// ----------
