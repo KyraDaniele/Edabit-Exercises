@@ -51,3 +51,20 @@ function whichIsLarger(f, g) {
 }
 
 // ----------
+// Is it Time for Milk and Cookies?
+// Create a function that accepts a Date object and returns true if it's Christmas Eve (December 24th) and false otherwise.
+
+function timeForMilkAndCookies(date) {
+	return date.getDate() == 24 && date.getMonth() == 11;
+}
+
+// ----------
+// Largest Swap
+// Write a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
+
+function largestSwap(num) {
+	newNumber = num.toString();
+	return newNumber.charAt(0) >= newNumber.charAt(1);
+}
+
+// ----------
