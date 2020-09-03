@@ -89,12 +89,12 @@ function remainder(x, y) {
 // Correct the Mistakes
 // Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
 
-// before
-function squaed(b) {
-	return a * a;
-}
+// BEFORE
+// function squaed(b) {
+// 	return a * a;
+// }
 
-//after
+// AFTER
 function squared(a) {
 	return a * a;
 }
@@ -246,21 +246,22 @@ function shouldServeDrinks(age, onBreak) {
 // ---------
 // Buggy Code
 // The challenge is to try and fix this buggy code, given the inputs true and false.
+
 // BEFORE
-function has_bugs(buggy_code) {
-	if (buggyCode) {
-		return 'sad days'
-	} else if {
-		return 'it's a good day'
-	}
-}
+// function has_bugs(buggy_code) {
+// 	if (buggyCode) {
+// 		return 'sad days'
+// 	} else if {
+// 		return 'it's a good day'
+// 	}
+// }
 
 // AFTER
 function has_bugs(buggy_code) {
 	if (buggy_code) {
-		return 'sad days'
-	} else{
-		return 'it\'s a good day'
+		return "sad days";
+	} else {
+		return "it's a good day";
 	}
 }
 
@@ -270,6 +271,18 @@ function has_bugs(buggy_code) {
 
 function getVoteCount(votes) {
 	return votes.upvotes - votes.downvotes;
+}
+
+// ---------
+// Recursion: Length of a String
+// Write a function that returns the length of a string. Make your function recursive.
+
+function length(str) {
+	if (str === "") {
+		return 0;
+	} else {
+		return 1 + length(str.substring(1));
+	}
 }
 
 // ---------
