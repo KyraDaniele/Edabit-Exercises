@@ -294,3 +294,15 @@ function concatName(firstName, lastName) {
 }
 
 // ---------
+// Burglary Series (01): Calculate Total Losses
+// You just returned home to find your mansion has been robbed! Given an object of the stolen items, return the total amount of the burglary (number). If nothing was robbed, return the string "Lucky you!".
+
+function calculateLosses(obj) {
+	if (Object.values(obj).reduce((a, b) => a + b, 0) === 0) {
+		return "Lucky you!";
+	} else {
+		return Object.values(obj).reduce((a, b) => a + b, 0);
+	}
+}
+
+// ---------
