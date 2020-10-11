@@ -306,3 +306,11 @@ function calculateLosses(obj) {
 }
 
 // ---------
+// Format I: Template String
+// https://edabit.com/challenge/DCmM4Eo6GQfrJoKXc
+function format(a, b, c) {
+	const template = `Their names were: ${a}, ${b} and ${c}.`;
+	return template;
+}
+
+// ---------
